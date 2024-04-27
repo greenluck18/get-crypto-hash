@@ -1,0 +1,19 @@
+{
+  "name": "get-crypto-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "get-crypto-hash": "./bin/run.js"
+  },
+  "preferGlobal": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
