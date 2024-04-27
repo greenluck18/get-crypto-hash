@@ -1,17 +1,13 @@
 {
   "name": "get-crypto-hash",
-  "version": "1.0.3",
-  "description": "",
-  "main": "index.js",
+  "description": "Geting different hashes",
+  "version": "1.0.4",
+  "main": "./lib/index.js",
   "bin": {
     "get-crypto-hash": "./bin/run.js"
   },
-  "preferGlobal": true,
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/run.js"
   },
   "author": "Halyna Mazur",
   "keywords": [
@@ -19,5 +15,10 @@
     "SHA",
     "md5"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:greenluck18/get-crypto-hash.git"
+  },
+  "homepage": "https://github.com/greenluck18/get-crypto-hash",
   "license": "MIT"
 }
