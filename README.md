@@ -1,6 +1,8 @@
-# GET CRYPTO HASH
+# get crypto hash
 
-This Node.js project provides a command-line utility to generate hash values (MD5, SHA-1, SHA-256, SHA-512) for input data. It can be used to quickly compute hash values for various cryptographic purposes.
+## Description
+
+This Node.js project generates hash values (MD5, SHA-1, SHA-256, SHA-512) via a command-line interface for cryptographic computations.
 
 ## Installation
 
